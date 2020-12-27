@@ -1,0 +1,27 @@
+.deleteOrder {
+  border-radius: 2px;
+  width: 25%;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+  height: 30px;
+  background: #62cf2f;
+  font-size: 25px;
+  transition-duration: 0.4s;
+}
+.deleteOrder:hover {
+  background-color: #e40b0b; /* Green */
+  color: white;
+}
+.printerVoice {
+  border-radius: 2px;
+  width: 25%;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+  height: 30px;
+  background: #62cf2f;
+  font-size: 25px;
+}

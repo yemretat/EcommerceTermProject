@@ -1,0 +1,78 @@
+.editproduct {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__container {
+  width: 400px;
+  background-color: white;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkboxs {
+  display: flex;
+  flex-direction: column;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+.login__container > form > select {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.active_passivetext {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__signInButton {
+  background: #42cf2f;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #42cf2f #846a29;
+}
+.edit_cancelButton {
+  background: #b4bdb2;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #42cf2f #846a29;
+}
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}

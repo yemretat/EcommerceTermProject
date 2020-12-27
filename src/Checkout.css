@@ -1,0 +1,42 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 300px;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+/* .searchInput {
+  margin-top: 30px;
+  height: 12px;
+  padding: 15px;
+  border: none;
+  width: 50%;
+  border: 2px solid rgb(21, 235, 39);
+  border-radius: 4px;
+} */
+.searchInput {
+  transition: width 0.4s ease-in-out;
+  margin-top: 30px;
+  height: 12px;
+  padding: 15px;
+  border: none;
+  width: 30%;
+  border: 2px solid rgb(21, 235, 39);
+  border-radius: 4px;
+}
+
+.searchInput:focus {
+  width: 50%;
+  border: 2px solid rgb(21, 235, 39);
+}
